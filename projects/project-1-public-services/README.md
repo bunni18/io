@@ -36,7 +36,7 @@ Produces clear, auditable metrics that support funding and program evaluation de
 ![Data Inserted Into Tables] (screenshots/Insert INTO.png)
 
 ### Summary Query Results
-![Summary Results](screenshots/Core Analytic Query.png)
+![Summary Results](projects/project-1-public-services/screenshots/Core Analytic Query.png)
 
 
 
