@@ -21,17 +21,6 @@ VALUES
 ('Housing Assistance'),
 ('Food Assistance'),
 ('Workforce Training');
-SELECT
-  p.program_name,
-  COUNT(e.enrollment_id) AS total_enrolled,
-  FLOOR(AVG(e.benefit_amount)) AS avg_benefit_amount,
-  SUM(e.benefit_amount) AS total_benefits
-FROM enrollments e
-JOIN programs p
-  ON e.program_id = p.program_id
-GROUP BY p.program_name;
-
-
 INSERT INTO citizens (full_name, date_of_birth)
 VALUES
 ('Alex Johnson', '1985-06-12'),
@@ -45,3 +34,13 @@ VALUES
 (2, 2, 450.00, '2024-01-15'),
 (3, 3, 800.00, '2024-02-01'),
 (4, 3, 900.00, '2024-02-10');
+
+SELECT
+  p.program_name,
+  COUNT(e.enrollment_id) AS total_enrolled,
+  FLOOR(AVG(e.benefit_amount)) AS avg_benefit_amount,
+  SUM(e.benefit_amount) AS total_benefits
+FROM enrollments e
+JOIN programs p
+  ON e.program_id = p.program_id
+GROUP BY p.program_name;
