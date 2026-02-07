@@ -29,14 +29,14 @@ Produces clear, auditable metrics that support funding and program evaluation de
 ## Screenshots
 
 ### Database Tables Created
-![Tables Created](screenshots/Create Table.png)
-![Tables Created] (screenshots/Create Table_2.png)
+![Tables Created](screenshots/CreateTable.png)
+![Tables Created](screenshots/CreateTable_2.png)
 
 ### Database INSERT Data
-![Data Inserted Into Tables] (screenshots/Insert INTO.png)
+![Data Inserted Into Tables](screenshots/InsertINTO.png)
 
 ### Summary Query Results
-![Summary Results](projects/project-1-public-services/screenshots/Core Analytic Query.png)
+![Summary Results](screenshots/CoreAnalyticQuery.png)
 
 
 
