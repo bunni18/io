@@ -38,5 +38,8 @@ Produces clear, auditable metrics that support funding and program evaluation de
 ### Summary Query Results
 ![Summary Results](screenshots/Core_Analytic_Query.png)
 
+[Return to Home Screen](index.html)
+
+
 
 
