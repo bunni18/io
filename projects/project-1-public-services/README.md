@@ -1,12 +1,5 @@
 # Public Services Data Analysis (MySQL)
 
-img {
-  border: 1px solid #ccc;
-  padding: 6px;
-  margin-bottom: 20px;
-}
-
-
 ## Objective
 Provide accurate summary reporting on participation and benefit distribution
 across public assistance programs.
