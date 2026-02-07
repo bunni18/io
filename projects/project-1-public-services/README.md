@@ -1,17 +1,27 @@
-# Public Services Data Analysis
+# Public Services Data Analysis (MySQL)
 
 ## Objective
-Analyze participation and benefit distribution across public programs.
+Provide accurate summary reporting on participation and benefit distribution
+across public assistance programs.
 
 ## Database
-MySQL (Aiven Console)
+- MySQL 8.x (Avien Console)
+- 3 normalized tables: citizens, programs, enrollments
 
-## SQL Skills Demonstrated
+## Business Questions Answered
+- How many participants are enrolled per program?
+- What is the average benefit amount per program?
+- What is the total benefit distribution?
+
+## SQL Techniques Used
 - JOINs
-- Aggregation
-- FLOOR averages
-- Data summarization
+- Aggregation (COUNT, AVG, SUM)
+- FLOOR for government-style rounding
+- Grouped reporting
+
+## Validation
+Queries were executed in a live MySQL environment.
+Screenshots included for verification.
 
 ## Outcome
-Provides accurate reporting to support funding and policy decisions.
-
+Produces clear, auditable metrics that support funding and program evaluation decisions.
