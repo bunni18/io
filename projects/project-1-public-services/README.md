@@ -4,7 +4,7 @@
 Analyze participation and benefit distribution across public programs.
 
 ## Database
-MySQL (Render Free Tier)
+MySQL (Aiven Console)
 
 ## SQL Skills Demonstrated
 - JOINs
