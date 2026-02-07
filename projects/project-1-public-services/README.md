@@ -26,18 +26,3 @@ Screenshots included for verification.
 ## Outcome
 Produces clear, auditable metrics that support funding and program evaluation decisions.
 
-<h2>Screenshots</h2>
-
-<h3>Table Creation</h3>
-<img src="screenshots/Create_Table.png" alt="Create table">
-
-<img src="screenshots/Create_Table_2.png" alt="Create table continued">
-
-<h3>Data Insertion</h3>
-<img src="screenshots/Insert_INTO.png" alt="Insert data">
-
-<h3>Core Analytic Query</h3>
-<img src="screenshots/Core_Analytic_Query.png" alt="Core analytic query">
-
-
-
